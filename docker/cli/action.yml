@@ -1,0 +1,6 @@
+---
+name: Docker CLI
+description: Run docker directly on GitHub Runner
+runs:
+  using: node12
+  main: dist/index.js
